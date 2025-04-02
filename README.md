@@ -7,6 +7,9 @@ This project explores patterns in U.S. car accident data from 2016 to 2023, with
 	•	Target variable: Severity (1 = minor, 4 = major)
 
   Preprocessing
+
+
+  
 	•	Dropped columns with high missingness, applied imputation (median/“unknown”)
 	•	Converted datatypes (boolean, datetime)
 	•	Feature engineered time-based features (hour, day of week)
@@ -15,6 +18,8 @@ This project explores patterns in U.S. car accident data from 2016 to 2023, with
 	•	Used SMOTE to balance the training data
 
   Models Used
+
+  
 	•	Logistic Regression
 	•	Random Forest
 	•	XGBoost
@@ -22,12 +27,16 @@ This project explores patterns in U.S. car accident data from 2016 to 2023, with
 	•	Neural Network
 
  Evaluation & Results
+
+ 
 	•	Best Recall: Logistic Regression
 	•	Best Accuracy: XGBoost
 	•	Important features: Wind Direction, Weather Condition, State
 	•	Evaluation focused on Recall, prioritizing correct identification of severe accidents.
 
  Business Use Cases
+
+ 
 	•	Insurance: Rate risk by area
 	•	Government: Safer traffic regulations and infrastructure planning
 	•	Self-driving car companies: Improve decision-making models
@@ -35,6 +44,8 @@ This project explores patterns in U.S. car accident data from 2016 to 2023, with
 	•	Rideshare & Maps: Smarter real-time rerouting
 
  Key Insights
+
+ 
 	•	Accidents are most common in major urban centers due to congestion and infrastructure stress
 	•	Morning rush hour is a peak accident time
 	•	Fewer accidents in midwestern/northern regions due to lower traffic volume
